@@ -58,13 +58,12 @@ public class Date {
    */
 
 
-  // Constructor modified by the collaborator
-public Date(int tag, int monat, int jahr) 
-{
-   this.day = tag;
-  this.month = monat; 
-  this.year = jahr;
-}
+  public Date(int day, int month, int year) 
+  {
+     this.day = day;
+    this.month = month; 
+    this.year = year;
+  }
 
 
   /**
